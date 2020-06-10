@@ -9,7 +9,12 @@ body,html{
     padding: 0;
     font-family: 'Merriweather', serif;
    }
-
+   hr{
+       background-color: black;
+   }
+   .search-bgc{
+       background-color: #fdf5b0e1;
+   }
     .searchbar{
     margin-bottom: auto;
     margin-top: auto;
@@ -57,24 +62,23 @@ body,html{
     /* Footer */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 section {
-    padding: 60px 0;
+    padding: 20px 0;
 }
 
 section .section-title {
     text-align: center;
     color: #263834;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     text-transform: uppercase;
 }
 #footer {
     margin-top: 40px;
-    background: #1c1f1eda !important;
+    background: #0e193dfd !important;
 }
-#footer h5{
+#footer h6{
 	padding-left: 10px;
-    border-left: 3px solid #eeeeee;
     padding-bottom: 6px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     color:#ffffff;
 }
 #footer a {
@@ -113,21 +117,25 @@ section .section-title {
 #footer ul.quick-links li:hover{
 	padding: 3px 0;
 	margin-left:5px;
-	font-weight:700;
+	font-weight:400;
 }
 #footer ul.quick-links li a i{
 	margin-right: 5px;
 }
 #footer ul.quick-links li:hover a i {
-    font-weight: 700;
+    font-weight: 400;
+}
+.footer-yel{
+    margin: 0;
+    padding: 0;
 }
 
 @media (max-width:767px){
-	#footer h5 {
+	#footer h6 {
     padding-left: 0;
     border-left: transparent;
     padding-bottom: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 }
 
