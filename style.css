@@ -7,9 +7,8 @@ body,html{
     width: 100%;
     margin: 0;
     padding: 0;
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,0.3133618644114291) 0%, rgba(170,95,216,0.4510023138496313) 100%) ;
-    }
+    font-family: 'Merriweather', serif;
+   }
 
     .searchbar{
     margin-bottom: auto;
@@ -63,13 +62,13 @@ section {
 
 section .section-title {
     text-align: center;
-    color: #007b5e;
+    color: #263834;
     margin-bottom: 50px;
     text-transform: uppercase;
 }
 #footer {
     margin-top: 40px;
-    background: #007b5eda !important;
+    background: #1c1f1eda !important;
 }
 #footer h5{
 	padding-left: 10px;
