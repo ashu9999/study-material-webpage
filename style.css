@@ -7,6 +7,7 @@ body,html{
     width: 100%;
     margin: 0;
     padding: 0;
+    background-size: cover;
     font-family: 'Merriweather', serif;
    }
    hr{
@@ -59,10 +60,12 @@ body,html{
     text-decoration:none;
     }
 
+    
     /* Footer */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 section {
-    padding: 20px 0;
+    margin: 0;
+    padding: 0;
 }
 
 section .section-title {
@@ -72,18 +75,18 @@ section .section-title {
     text-transform: uppercase;
 }
 #footer {
-    margin-top: 40px;
-    background: #0e193dfd !important;
+    margin: 0;
+    padding: 0;
+    background: #0e193dfd ;
 }
 #footer h6{
 	padding-left: 10px;
-    padding-bottom: 6px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     color:#ffffff;
 }
 #footer a {
     color: #ffffff;
-    text-decoration: none !important;
+    text-decoration: none ;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
 }
@@ -92,7 +95,7 @@ section .section-title {
 }
 #footer ul.social li a i {
     margin-right: 5px;
-	font-size:25px;
+	font-size:15px;
 	-webkit-transition: .5s all ease;
 	-moz-transition: .5s all ease;
 	transition: .5s all ease;
@@ -125,20 +128,8 @@ section .section-title {
 #footer ul.quick-links li:hover a i {
     font-weight: 400;
 }
-.footer-yel{
-    margin: 0;
-    padding: 0;
-}
 
-@media (max-width:767px){
-	#footer h6 {
-    padding-left: 0;
-    border-left: transparent;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
 }
-}
-
 /* vidEo */
 
 .pb-video-container {
