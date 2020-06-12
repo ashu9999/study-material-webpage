@@ -61,7 +61,7 @@ body,html{
     }
 
     
-    /* Footer */
+    /*  Footer  */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 section {
     margin: 0;
@@ -70,18 +70,28 @@ section {
 
 section .section-title {
     text-align: center;
-    color: #263834;
+    color: #080727;
     margin-bottom: 0px;
     text-transform: uppercase;
 }
 #footer {
-    margin: 0;
-    padding: 0;
-    background: #0e193dfd ;
+    position: relative;
+    display: block;
+    color: #fff;
+    background: #080727;
+    float: left;
+    height: auto;
+    width: 100%;
+    font-size: 14px;
+    padding-top: 30px;
+    
 }
 #footer h6{
 	padding-left: 10px;
     margin-bottom: 0;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
     color:#ffffff;
 }
 #footer a {
@@ -231,3 +241,4 @@ section .section-title {
     background-color: transparent;
     font-size:18px;
 }
+
