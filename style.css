@@ -17,7 +17,15 @@ body,html{
        background-color: black;
    }
    .search-bgc{
-       background-color: #fdf5b0e1;
+        background-color: #f7efb0;
+   }
+   div.des{
+    
+    font-family: proxima,sans-serif;
+    border-radius: 4px;
+    padding: 10px 10px;
+    font-size: 14px;
+    width:250px;
    }
     .searchbar{
     margin-bottom: auto;
