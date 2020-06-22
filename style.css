@@ -11,7 +11,10 @@ body,html{
     background-size: cover;
     font-family: 'Merriweather', serif;
    }
+   .navi{
+    background-color: #080727;
 
+   }
 
    hr{
        background-color: black;
